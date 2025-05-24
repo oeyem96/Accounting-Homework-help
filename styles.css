@@ -1,0 +1,109 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-link {
+    color: #2F80ED !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #1a5aa0 !important;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #2F80ED 0%, #56CCF2 100%);
+    padding: 100px 0;
+    color: white;
+}
+
+.cta-buttons .btn {
+    transition: transform 0.3s ease;
+}
+
+.cta-buttons .btn:hover {
+    transform: scale(1.05);
+}
+
+/* Services Grid */
+.services-grid .service-card {
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.services-grid .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.services-grid .service-card i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* How it works section */
+.how-it-works .timeline-step {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.how-it-works .timeline-step:hover {
+    transform: scale(1.05);
+}
+
+.how-it-works .step-number {
+    width: 50px;
+    height: 50px;
+    background-color: #2F80ED;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    font-weight: bold;
+}
+
+/* Team members section */
+.team-member {
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: scale(1.1);
+}
+
+/* Trust stats section */
+.trust-stats .display-4 {
+    font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 0;
+    }
+    
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .how-it-works .timeline-step {
+        margin-bottom: 15px;
+    }
+}
+
+/* Utility Classes */
+.text-primary {
+    color: #2F80ED !important;
+}
